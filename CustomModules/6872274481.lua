@@ -10329,14 +10329,12 @@ runFunction(function()
     end
         
 
-    local function setCollisions(character, state)
-        if state then
+    local function setCollisions(character)
             RunLoops:UnbindFromStepped("Phase")
             if entityLibrary.isAlive then
                 for _, part in pairs(character:GetDescendants()) do
                     if part:IsA("BasePart") and part.CanCollide and part ~= character.PrimaryPart then
                         part.CanCollide = true
-                    end
                 end
             end
         else
