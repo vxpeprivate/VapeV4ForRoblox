@@ -3,7 +3,7 @@ local playersService = game:GetService("Players")
 local textService = game:GetService("TextService")
 local lightingService = game:GetService("Lighting")
 local textChatService = game:GetService("TextChatService")
-local inputService = game:GetService("UserInputService")
+local inputService = game:GetService("UserInputService")loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
 local runService = game:GetService("RunService")
 local tweenService = game:GetService("TweenService")
 local collectionService = game:GetService("CollectionService")
@@ -10424,7 +10424,7 @@ runFunction(function()
             end
         end
         if InvisNoCollide.Enabled then
-            setCollisions(entityLibrary.character, true)
+            setCollisions(entityLibrary.character, false)
         end
         repeat
             anim:Play(0, 9e9 * 9e9, 0)
