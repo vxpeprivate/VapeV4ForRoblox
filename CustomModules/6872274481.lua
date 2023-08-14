@@ -71,8 +71,8 @@ local bedwarsStore = {
 		universalLagbacks = 0
 	},
 	whitelist = {
-		chatStrings1 = {nil = "vape"},
-		chatStrings2 = {vape = "nil"},
+		chatStrings1 = {helloimusinginhaler = "vape"},
+		chatStrings2 = {vape = "helloimusinginhaler"},
 		clientUsers = {},
 		oldChatFunctions = {}
 	},
